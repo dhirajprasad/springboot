@@ -8,7 +8,11 @@ import org.springframework.context.annotation.Import;
 import org.springframework.context.annotation.PropertySource;
 
 import com.mkyong.util.SpringSecurityConfig;
-
+/**
+ * 
+ * @author dhiraj
+ *
+ */
 @Import(SpringSecurityConfig.class)
 @PropertySource("classpath:label.properties")
 @SpringBootApplication
